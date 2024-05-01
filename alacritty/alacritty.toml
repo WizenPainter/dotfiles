@@ -1,0 +1,104 @@
+import = [
+    "~/.config/alacritty/themes/themes/solarized_dark.toml"
+    # "~/.config/alacritty/themes/themes/Cobalt2.toml"
+    # "~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"
+]
+live_config_reload = true
+# theme = "Solarized-dark"
+
+[bell]
+animation = "EaseOutExpo"
+duration = 0
+
+# [colors]
+# draw_bold_text_with_bright_colors = true
+# vi_mode_cursor = { text = "#dde9ed", cursor = "#dde9ed" }
+
+[[colors.indexed_colors]]
+color = "#dde9ed"
+index = 16
+
+
+# [colors.cursor]
+# cursor = "#dde9ed"
+# text = "#dde9ed"
+
+[colors.primary]
+# background = "#dde9ed"
+foreground = "#dde9ed"
+
+[colors.normal]
+black = "#1e1e1e"
+red = "#f92672"
+green = "#a6e22e"
+yellow = "#f4bf75"
+blue = "#66d9ef"
+magenta = "#ae81ff"
+cyan = "#a1efe4"
+white = "#f8f8f2"
+
+[colors.bright]
+black = "#75715e"
+red = "#f92672"
+green = "#a6e22e"
+yellow = "#f4bf75"
+blue = "#66d9ef"
+magenta = "#ae81ff"
+cyan = "#a1efe4"
+white = "#f8f8f2"
+
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+size = 12
+
+[font.bold]
+family = "JetBrainsMono Nerd Font"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "JetBrainsMono Nerd Font"
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[mouse]
+hide_when_typing = true
+
+[[mouse.bindings]]
+action = "PasteSelection"
+mouse = "Middle"
+
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+decorations = "Buttonless"
+dynamic_title = true
+option_as_alt = "Both"
+startup_mode = "Maximized"
+opacity = 0.7
+blur = true
+
+[window.dimensions]
+columns = 160
+lines = 80
+
+[window.padding]
+x = 4
+y = 4

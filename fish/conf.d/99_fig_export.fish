@@ -1,0 +1,1 @@
+/Users/guzma/fig-export/dotfiles/dotfile.fish
